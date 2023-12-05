@@ -3,7 +3,6 @@ const mongoose = require(`mongoose`)
 mongoose.set(`strictQuery`, false)
 
 const url = process.env.MONGODB_URI
-//`mongodb+srv://andremscruz:andrita1713@cluster0.mpuvtjj.mongodb.net/Tenzies?retryWrites=true&w=majority`
 console.log('connecting to', url)
 
 mongoose.connect(url)
